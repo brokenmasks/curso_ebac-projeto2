@@ -1,0 +1,149 @@
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+.navbar {
+    background-color: #00b4d8;
+}
+
+.nav .nav-link.active {
+    background-color: #edf6f9;
+    color: #00b4d8;
+}
+
+.nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+    color: #edf6f9
+}
+
+#carrosel1 .carousel-inner {
+    max-height: 500px;
+    height: 100%;
+}
+
+#carrosel1 .carousel-item img {
+    object-fit: cover;
+}
+
+.titles {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+}
+
+section {
+    padding-top: 75px;
+}
+
+#um-pouco-de-nos .ft1 {
+    height: 100%;
+}
+
+#para-voce .container {
+    background: #00b4d8;
+}
+
+#para-voce h2 {
+    color: #edf6f9;
+}
+
+#para-voce .card {
+    opacity: .9;
+    transition: 300ms;
+}
+
+#para-voce .card:hover {
+    opacity: 1;
+    scale: 1.018;
+    transition: 300ms;
+}
+
+#feed-back h2,
+#fale-conosco h2,
+#fale-conosco h3, 
+#fale-conosco form label {
+    color: #00b4d8;
+}
+
+#feed-back label {
+    color: #21252998;
+}
+
+#fale-conosco .social-links li {
+    list-style: none;
+    display: inline;
+}
+
+#fale-conosco .social-links li a {
+    text-decoration: none;
+    color: #212529;
+}
+
+.bi-instagram {
+    color: #b5179e;
+}
+
+#fale-conosco .social-links .insta {
+    background-color: #b5179e90;
+}
+
+.bi-youtube {
+    color: #ef233c;
+}
+
+#fale-conosco .social-links .youtube {
+    background-color: #ef233c90;
+}
+
+.bi-twitter-x {
+    color: #fff;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+#fale-conosco .social-links .twitter {
+    background-color: #00000030
+}
+
+footer .row1 {
+    border-bottom: 1px solid #21252970;
+}
+
+footer .rodape-nav li a {
+    color: #212529;
+    text-decoration: none;
+}
+
+footer .rodape-nav li a:hover {
+    text-decoration: underline;
+    color: #21252980;
+}
+
+footer form label {
+    color: #212529;
+}
+
+footer form input {
+    border-radius: 12px;
+    outline: none;
+    border: .5px solid #21252980;
+    width: 70%;
+    padding: 5px 10px;
+}
+
+footer form button {
+    padding: 5px 20px;
+    border-radius: 12px;
+    border: none;
+    color: #edf6f9;
+    background-color: #3a86ff;
+    font-weight: 600;
+}
+
+footer .rodape-nav2 li {
+    border-right: 1px solid #21252980;
+}
+
+footer .rodape-nav2 li a {
+    color: #212529;
+    text-decoration: none;
+}
